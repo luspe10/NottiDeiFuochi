@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+		<title>Notti dei fuochi</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head> 
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-2">
+						<a href="index.html"><img src="img/Padova-Stemma.png" alt="Stemma"/></a>
+					</div>
+					<div class="col-md-8">
+						<div class="row text-center">
+	                		<h1>Notti dei fuochi</h1>
+	                    	<h4>Itinerario negli anni di piombo di Padova</h4>
+	                    </div>
+	                </div>
+					<div class="col-md-2">
+						<div class="dropdown d-flex justify-content-end">
+						  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	IT | EN
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Italiano</a></li>
+						    <li><a class="dropdown-item" href="#">English</a></li>
+						  </ul>
+						</div>
+	                </div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg background-red">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="mynavbar">
+			      <ul class="navbar-nav me-auto mb-2 mb-l g-0">
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item"> 
+			          <a class="nav-link" href="persone.html">Persone</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Itinerari</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">Documenti</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Catalogo
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Tutte le categorie</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Eventi</a></li>
+			            <li><a class="dropdown-item" href="#">Partiti</a></li>
+			            <li><a class="dropdown-item" href="#">Giornali</a></li>
+			            <li><a class="dropdown-item" href="#">Gruppi</a></li>
+			            <li><a class="dropdown-item" href="#">Processi</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+			        <button class="btn me-1" type="submit" type="button"><i class="bi bi-search"></i></button> 
+			      </form>
+			      <button type="button" class="btn btn-dark">Accedi</button>
+			    </div>
+			  </div>
+			</nav>
+			<div class="container-fluid pt-3">
+				<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="index.html" class="link-dark">Home</a></li>
+				    <li class="breadcrumb-item active" aria-current="page"><strong>Itinerari</strong></li>
+				  </ol>
+				</nav>
+			</div>			
+		</header>
+		<main>
+			<div class="container-fluid">
+				<div class="row justify-content-md-center">
+					<div class="col-md-10">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+								  <li class="nav-item" role="presentation">
+								   <a class="nav-link active link-dark metadata-title" id="paths-tab" data-bs-toggle="tab" href="#paths" role="tab" aria-controls="paths" aria-selected="true">Itinerari</a>
+								  </li>
+								  <li class="nav-item" role="presentation">
+								   <a class="nav-link link-dark metadata-title" id="time-tab" data-bs-toggle="tab" href="#time" role="tab" aria-controls="time" aria-selected="true">Linea del tempo</a> 
+								  </li>
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="paths" role="tabpanel" aria-labelledby="paths-tab">
+										<div class="container-md">
+											<div class="row justify-content-md-center">
+												<div class="col-md-12">
+													<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+														<div class="col">																			  	
+															<div class="card upper-card" data-bs-toggle="modal" data-bs-target="#percorso1">	
+																<img src="img/ordigni-neofascisti.jpg" class="card-img-top" alt="percorso Ordigni neofascisti">	 
+																<div class="card-body">
+																	<h5 class="card-title">Il tragitto degli ordigni neofascisti</h5>
+																	<p class="card-text">Il tragitto degli ordigni neofascisti</p>	
+																</div>														    
+															</div>																
+														</div>
+														<div class="col">
+														 	<div class="card upper-card">
+															    <img src="img/prima-notte.jpg" class="card-img-top" alt="percorso Prima notte dei fuochi">
+															    <div class="card-body">
+															     <h5 class="card-title">La prima notte dei fuochi</h5>
+															       <p class="card-text">La prima notte dei fuochi</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/seconda-notte.jpg" class="card-img-top" alt="percorso Seconda notte dei fuochi">
+															    <div class="card-body">
+															      <h5 class="card-title">La seconda notte dei fuochi</h5>
+															        <p class="card-text">La seconda notte dei fuochi</p>							        
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>								       
+															    </div>
+															  </div>
+															</div>
+															<div class="col">
+															  <div class="card upper-card">
+															    <img src="img/wip.jpg" class="card-img-top" alt="Luoghi e itinerari">
+															    <div class="card-body">
+															     <h5 class="card-title">In allestimento</h5>
+															       <p class="card-text"> Percorso in allestimento</p>							       
+															    </div>
+															  </div>
+															</div>																							
+													</div>
+												</div>
+												<div class="row">
+													<nav aria-label="Page navigation">
+													  <ul class="pagination justify-content-center">
+													    <li class="page-item">
+													      <a class="page-link link-dark" href="#" aria-label="Previous">
+													        <span aria-hidden="true">&laquo;</span>
+													      </a>
+													    </li>
+													    <li class="page-item"><a class="page-link link-dark" href="#">1</a></li>
+													    <li class="page-item"><a class="page-link link-dark" href="#">2</a></li>
+													    <li class="page-item"><a class="page-link link-dark" href="#">3</a></li>
+													    <li class="page-item">
+													      <a class="page-link link-dark" href="#" aria-label="Next">
+													        <span aria-hidden="true">&raquo;</span>
+													      </a>
+													    </li>
+													  </ul>
+													</nav>		
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="time" role="tabpanel" aria-labelledby="time-tab">
+								 		<div class="container-fluid">
+											<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=17jSkNdFUWeFd_wBCh1Fw70vv47tRseWgFtP4Y8ZQJDE&font=Default&lang=it&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="container-fluid background-red">
+					<div class="container">
+						<div class="row">
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Notti dei fuochi</h5></li>
+			                        <li><i class="bi bi-person-circle"></i>  Progetto realizzato da <strong> Luca Spera</strong></li>
+			                        <li><i class="bi bi-laptop-fill"></i> Corso di Digital Humanities (2022/2023)</li>
+			                        <li><i class="bi bi-geo-fill"></i>Dipartimento di Storia Culture Civiltà, Alma Mater Studiorum</li>
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Contatti</h5></li>
+			                        <li><i class="bi bi-globe"></i>https://github.com/luspe10/NottiDeiFuochi</li>
+			                        <li><i class="bi bi-telephone"></i> 555-666-9828</li>
+			                        <li><i class="bi bi-envelope-fill"></i> info@nottideifuochi.edu.it</li>
+			                        <li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></li>                    
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			            </div>
+			        </div>
+				</div>
+				<div class="row">
+					<p class="text-center">©Copyright 2023 - ALMA MATER STUDIORUM - Università di Bologna</p>
+				</div>
+            </div>
+		</footer>
+    	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    	<div class="modal fade modal-grande" id="percorso1" tabindex="-1" aria-labelledby="labelPercorso1" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="labelPercorso1">Il tragitto degli ordigni neofascisti</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<iframe src="https://uploads.knightlab.com/storymapjs/07c9f0e04a773935d8534217f47a5210/il-tragitto-degli-ordigni-neofascisti/index.html" frameborder="0" width="100%" height="500"></iframe>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

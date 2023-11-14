@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+		<title>Notti dei fuochi</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head> 
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-2">
+						<a href="index.html"><img src="img/Padova-Stemma.png" alt="Stemma"/></a>
+					</div>
+					<div class="col-md-8">
+						<div class="row text-center">
+                    		<h1>Notti dei fuochi</h1>
+                        	<h4>Itinerario negli anni di piombo di Padova</h4>
+                        </div>
+                    </div>
+					<div class="col-md-2">
+						<div class="dropdown d-flex justify-content-end">
+						  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	IT | EN
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Italiano</a></li>
+						    <li><a class="dropdown-item" href="#">English</a></li>
+						  </ul>
+						</div>
+                    </div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg background-red">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="mynavbar">
+			      <ul class="navbar-nav me-auto mb-2 mb-l g-0">
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item"> 
+			          <a class="nav-link active" aria-current="page" href="#">Persone</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="itinerari.html">Itinerari</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="">Documenti</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Catalogo
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Tutte le categorie</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Eventi</a></li>
+			            <li><a class="dropdown-item" href="#">Documenti</a></li>
+			            <li><a class="dropdown-item" href="#">Giornali</a></li>
+			            <li><a class="dropdown-item" href="#">Gruppi</a></li>
+			            <li><a class="dropdown-item" href="#">Processi</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+			        <button class="btn me-1" type="submit" type="button"><i class="bi bi-search"></i></button> 
+			      </form>
+			      <button type="button" class="btn btn-dark">Accedi</button>
+			    </div>
+			  </div>
+			</nav>
+			<div class="container-fluid pt-3">
+				<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="index.html" class="link-dark">Home</a></li>
+				    <li class="breadcrumb-item active" aria-current="page"><strong>Persone</strong></li>
+				  </ol>
+				</nav>
+			</div>			
+		</header>
+		<main>
+			<div class="container-fluid">
+				<div class="row">
+				    <div class="col-md-2">
+				    	<aside>
+				    		<div class="pt-3">
+				    			<h5><i class="bi bi-filter-circle-fill"></i> Filtri</h5>
+				    			<hr/>
+								<div class="accordion" id="myaccordion">
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingOne">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								        Anni
+								      </button>
+								    </h2>
+								    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#myaccordion">
+								      <div class="accordion-body">
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+										  <label class="form-check-label" for="flexCheckDefault1">
+										    Anni Cinquanta
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+										  <label class="form-check-label" for="flexCheckDefault2">
+										    Anni Sessanta
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+										  <label class="form-check-label" for="flexCheckDefault3">
+										    Anni Settanta
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+										  <label class="form-check-label" for="flexCheckDefault4">
+										    Anni Ottanta
+										  </label>
+										</div>										
+								      </div>
+								    </div>
+								  </div>
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingTwo">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								        Organizzazioni e istituzioni
+								      </button>
+								    </h2>
+								    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#myaccordion">
+								      <div class="accordion-body">
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+										  <label class="form-check-label" for="flexCheckDefault5">
+										    Ordine Nuovo
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+										  <label class="form-check-label" for="flexCheckDefault6">
+										    Potere Operaio
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+										  <label class="form-check-label" for="flexCheckDefault7">
+										    Autonomia Operaia
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+										  <label class="form-check-label" for="flexCheckDefault8">
+										    Brigate Rosse
+										  </label>
+										</div>
+								      	<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+										  <label class="form-check-label" for="flexCheckDefault9">
+										    Fronte Nazionale
+										  </label>
+										</div>										
+								     	<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+										  <label class="form-check-label" for="flexCheckDefault10">
+										    Collettivi Politici Veneti
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+										  <label class="form-check-label" for="flexCheckDefault11">
+										    Forze dell'Ordine
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+										  <label class="form-check-label" for="flexCheckDefault12">
+										    Giudici e magistrati
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13" checked>
+										  <label class="form-check-label" for="flexCheckDefault13">
+										    Partiti politici
+										  </label>
+										</div>										
+								      </div>								    
+								  </div>
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingThree">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								      Luoghi  
+								      </button>
+								    </h2>
+								    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#myaccordion">
+								      <div class="accordion-body">
+								        <div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+										  <label class="form-check-label" for="flexCheckDefault14">
+										    Padova
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+										  <label class="form-check-label" for="flexCheckDefault15">
+										    Vicenza
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16">
+										  <label class="form-check-label" for="flexCheckDefault16">
+										    Treviso
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17">
+										  <label class="form-check-label" for="flexCheckDefault17">
+										    Verona
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked18" checked>
+										  <label class="form-check-label" for="flexCheckChecked18">
+										    Venezia
+										  </label>
+										</div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+				    	</aside>
+					</div>
+					<div class="col-md-10">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active link-dark" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Persone</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="a-tab" data-bs-toggle="tab" href="#a" role="tab" aria-controls="a" aria-selected="true">A</a>
+									</li>
+									<li class="nav-item"> 
+										<a class="nav-link disabled" id="b-tab" data-bs-toggle="tab" href="#b" role="tab" aria-controls="b" aria-selected="true">B</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link link-dark" id="c-tab" data-bs-toggle="tab" href="#c" role="tab" aria-controls="c" aria-selected="true">C</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="d-tab" data-bs-toggle="tab" href="#d" role="tab" aria-controls="d" aria-selected="true">D</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="e-tab" data-bs-toggle="tab" href="#e" role="tab" aria-controls="e" aria-selected="true">E</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link link-dark" id="f-tab" data-bs-toggle="tab" href="#f" role="tab" aria-controls="f" aria-selected="true">F</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="g-tab" data-bs-toggle="tab" href="#g" role="tab" aria-controls="g" aria-selected="true">G</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="h-tab" data-bs-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">H</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="i-tab" data-bs-toggle="tab" href="#i" role="tab" aria-controls="i" aria-selected="true">I</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="j-tab" data-bs-toggle="tab" href="#j" role="tab" aria-controls="j" aria-selected="true">J</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="k-tab" data-bs-toggle="tab" href="#k" role="tab" aria-controls="k" aria-selected="true">K</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="l-tab" data-bs-toggle="tab" href="#l" role="tab" aria-controls="l" aria-selected="true">L</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link link-dark" id="m-tab" data-bs-toggle="tab" href="#m" role="tab" aria-controls="m" aria-selected="true">M</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="n-tab" data-bs-toggle="tab" href="#n" role="tab" aria-controls="n" aria-selected="true">N</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="o-tab" data-bs-toggle="tab" href="#o" role="tab" aria-controls="o" aria-selected="true">O</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="p-tab" data-bs-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="true">P</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="q-tab" data-bs-toggle="tab" href="#q" role="tab" aria-controls="q" aria-selected="true">Q</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="r-tab" data-bs-toggle="tab" href="#r" role="tab" aria-controls="r" aria-selected="true">R</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="s-tab" data-bs-toggle="tab" href="#s" role="tab" aria-controls="s" aria-selected="true">S</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="t-tab" data-bs-toggle="tab" href="#t" role="tab" aria-controls="t" aria-selected="true">T</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="u-tab" data-bs-toggle="tab" href="#u" role="tab" aria-controls="u" aria-selected="true">U</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="v-tab" data-bs-toggle="tab" href="#v" role="tab" aria-controls="v" aria-selected="true">V</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="w-tab" data-bs-toggle="tab" href="#w" role="tab" aria-controls="w" aria-selected="true">W</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="x-tab" data-bs-toggle="tab" href="#x" role="tab" aria-controls="x" aria-selected="true">X</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="y-tab" data-bs-toggle="tab" href="#y" role="tab" aria-controls="y" aria-selected="true">Y</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="z-tab" data-bs-toggle="tab" href="#z" role="tab" aria-controls="z" aria-selected="true">Z</a>
+									</li>
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"> 								
+									</div>
+									<div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">
+										<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/cagol.jpg" class="card-img-top" alt="Margherita Cagol">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Cagol, Margherita</a><a href="http://viaf.org/viaf/65306082" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/calabresi.jpg" class="card-img-top" alt="Luigi Calabresi">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Calabresi, Luigi</a><a href="http://viaf.org/viaf/3304509" class="h5"><sup> VIAF</sup></a>
+										      </div>
+											</div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/calogero.jpg" class="card-img-top" alt="Pietro Calogero">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Calogero, Pietro</a><a href="http://viaf.org/viaf/31678322" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/caselli.jpg" class="card-img-top" alt="Gian Carlo Caselli">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Caselli, Gian Carlo</a><a href="http://viaf.org/viaf/103653195" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/cavallina.jpg" class="card-img-top" alt="Arrigo Cavallina">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Cavallina, Arrigo</a><a href=" http://viaf.org/viaf/41252395" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/coco.jpg" class="card-img-top" alt="Francesco Coco">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Coco, Francesco</a><a href="http://viaf.org/viaf/50484465" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/nophoto-person.jpg" class="card-img-top" alt="Foto mancante">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Comacchio, Franco</a><a href="" class="h5"><sup>VIAF</sup></a>										      	
+										      </div> 
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/cossiga.jpg" class="card-img-top" alt="Francesco Cossiga">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Cossiga, Francesco</a><a href="http://viaf.org/viaf/69547504" class="h5"><sup>VIAF</sup></a>
+										      </div> 
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/curcio.jpg" class="card-img-top" alt="Renato Curcio">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Curcio, Renato</a><a href="http://viaf.org/viaf/76362516" class="h5"><sup>VIAF</sup></a>
+										      </div> 
+										    </div>
+										  </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="f" role="tabpanel" aria-labelledby="f-tab">
+										<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/fachini.jpg" class="card-img-top" alt="Massimiliano Fachini">
+										      <div class="card-body text-center">
+										         <a href="#" class="h5">Fachini, Massimiliano</a><a href="" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/fanfani.jpg" class="card-img-top" alt="Roberto Fanfani">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Fanfani, Roberto</a><a href="http://viaf.org/viaf/108174450" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/feltrinelli.jpg" class="card-img-top" alt="Giangiacomo Feltrinelli">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Feltrinelli, Giangiacomo</a><a href="http://viaf.org/viaf/52497170" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/ferrari-bravo.jpg" class="card-img-top" alt="Luciano Ferrari Bravo">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Ferrari Bravo, Luciano</a><a href="http://viaf.org/viaf/39505496" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/filippani-ronconi.jpg" class="card-img-top" alt="Pio Filippani Ronconi">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Filippani Ronconi, Pio</a><a href="http://viaf.org/viaf/29638493" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/fioroni.jpg" class="card-img-top" alt="Carlo Fioroni">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Fioroni, Carlo</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/franceschini.jpg" class="card-img-top" alt="Alberto Franceschini con Renato Curcio">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Franceschini, Alberto</a><a href="http://viaf.org/viaf/61576307" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/frascella.jpg" class="card-img-top" alt="Emanuela Frascella">
+										      <div class="card-body text-center">
+										         <a href="#" class="h5">Frascella, Emanuela</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/freda.jpg" class="card-img-top" alt="Franco Freda con Giovanni Ventura">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Freda, Franco</a><a href="http://viaf.org/viaf/134871" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="m" role="tabpanel" aria-labelledby="m-tab">
+										<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/macchiarini.jpg" class="card-img-top" alt="Idalgo Macchiarini">
+										      <div class="card-body text-center">
+										         <a href="#" class="h5">Macchiarini, Idalgo</a><a href="" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/maletti.jpg" class="card-img-top" alt="Gian Adelio Maletti">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Maletti, Gian Adelio</a><a href="http://viaf.org/viaf/173158928" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/mantovani.jpg" class="card-img-top" alt="Nadia Mantovani con Roberto Ognibene e Arialdo Lintrami">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Mantovani, Nadia</a><a href="https://isni.org/isni/0000000459707860" class="h5"><sup>ISNI</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/nophoto-person.jpg" class="card-img-top" alt="Foto mancante">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Marcato, Ulisse</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/nophoto-person.jpg" class="card-img-top" alt="Foto mancante">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Marchesin, Giancarlo</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/mazzola.jpg" class="card-img-top" alt="Giuseppe Mazzola">
+										      <div class="card-body text-center">
+										        <a href="giuseppe-mazzola.html" class="h5">Mazzola, Giuseppe</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/miceli.jpg" class="card-img-top" alt="Vito Miceli">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Miceli, Vito</a><a href="" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/moretti.jpg" class="card-img-top" alt="Mario Moretti">
+										      <div class="card-body text-center">
+										         <a href="#" class="h5">Moretti, Mario</a><a href="http://viaf.org/viaf/107594009" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/morucci.jpg" class="card-img-top" alt="Valerio Morucci">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Morucci, Valerio</a><a href="http://viaf.org/viaf/37220889" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+									</div>
+								</div>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<nav aria-label="Page navigation">
+					  <ul class="pagination justify-content-center">
+					    <li class="page-item">
+					      <a class="page-link link-dark" href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link link-dark" href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>		
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="container-fluid background-red">
+					<div class="container">
+						<div class="row">
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Notti dei fuochi</h5></li>
+			                        <li><i class="bi bi-person-circle"></i>  Progetto realizzato da <strong> Luca Spera</strong></li>
+			                        <li><i class="bi bi-laptop-fill"></i> Corso di Digital Humanities (2022/2023)</li>
+			                        <li><i class="bi bi-geo-fill"></i>Dipartimento di Storia Culture Civiltà, Alma Mater Studiorum</li>
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Contatti</h5></li>
+			                        <li><i class="bi bi-globe"></i>https://github.com/luspe10/NottiDeiFuochi</li>
+			                        <li><i class="bi bi-telephone"></i> 555-666-9828</li>
+			                        <li><i class="bi bi-envelope-fill"></i> info@nottideifuochi.edu.it</li>
+			                        <li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></li>                     
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			            </div>
+			        </div>
+				</div>
+				<div class="row">
+					<p class="text-center">©Copyright 2023 - ALMA MATER STUDIORUM - Università di Bologna</p>
+				</div>
+	        </div>
+		</footer>
+
+    	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

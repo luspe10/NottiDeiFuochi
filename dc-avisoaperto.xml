@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+	<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="nottideifuochi">
+		<item id="estratto-avisoaperto" xml:id="nottideifuochi-estratto-avisoaperto">
+		<dc:title>A viso aperto. Intervista di Mario Scialoja</dc:title>
+		<dc:creator>Renato Curcio</dc:creator>
+		<dc:creator>Mario Scialoja</dc:creator>
+		<dc:date>Marzo 1993</dc:date>
+		<dc:subject>anni di piombo</dc:subject>
+		<dc:subject>assalto di via Zabarella</dc:subject>
+		<dc:description xml:lang="it">
+			Dopo anni di silenzio, nel 
+			<dc:date>1993</dc:date> 
+			<dc:creator>Renato Curcio</dc:creator>, ideologo delle Brigate Rosse, decise che era venuto il momento di parlare. Dal carcere rilasciò così un'intervista a 
+			<dc:creator>Mario Scialoja</dc:creator>: ne è conseguito questo 
+			<dc:type>libro</dc:type>, edito a 
+			<dc:coverage>Milano</dc:coverage> da 
+			<dc:publisher>Arnaldo Mondadori editore</dc:publisher> un testo importante per capire le motivazioni che mossero quel giovane studente della facoltà di sociologia a Trento in direzione della strategia eversiva e della 
+			<dc:subject>lotta armata</dc:subject>.
+		</dc:description>		
+		<dc:publisher>Arnaldo Mondadori editore</dc:publisher>
+		<dc:type>intervista edita</dc:type>
+		<dc:format>libro cartaceo</dc:format>
+		<dc:identifier>ISBN 10: 8804367032; ISBN 13: 9788804367031</dc:identifier>
+		<dc:language>it</dc:language>
+		<dc:relation>Renato Curcio</dc:relation>
+		<dc:relation>Mario Scialoja</dc:relation>
+		<dc:relation>Graziano Giralucci</dc:relation>
+		<dc:relation>Giuseppe Mazzola</dc:relation>
+		<dc:relation>Brigate rosse</dc:relation>
+		<dc:relation>Padova</dc:relation>
+		<dc:relation>Movimento sociale italiano</dc:relation>
+		<dc:relation>Anni di piombo</dc:relation>
+		<dc:coverage>Milano</dc:coverage>
+		<dc:rights>Copyright 1993 Arnoldo Mondadori Editore S.p.A. Milano</dc:rights>
+		</item>
+	</catalogo>
